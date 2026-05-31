@@ -67,6 +67,17 @@ establishes the baseline detection gap that all
 subsequent detection rules are built to close.
 
 ## Environment
+
+## Evidence
+
+**Network Reconnaissance — Kali Ping Sweep**
+![Ping Sweep](pingsweep.png)
+
+**DC01 Attack Surface — Nmap SYN Scan**
+![Nmap SYN Scan](nmap-syn-scan-dc01.png)
+
+**Sentinel Detection Gap — Zero Results**
+![Sentinel Zero Results](sentinel-zero-results.png)
 - Attack machine: Kali Linux 2026.x
 - Target: Windows Server 2022 Domain Controller
 - Pipeline: AMA → Azure Arc → DCR → Log Analytics → Sentinel
